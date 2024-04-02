@@ -11,5 +11,15 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/yourusername/RecordingModule.git', :tag => s.version.to_s }
   s.dependency 'UtilityModule'
-  s.source_files = 'Implementation/**/*.{swift}'
+#  s.source_files = 'Implementation/**/*.{swift}'
+
+  # Define sub-specs for protocols and implementations
+  s.subspec 'Protocols' do |subspec|
+    subspec.source_files = 'Protocols/**/*.swift'
+  end
+
+  s.subspec 'Implementations' do |subspec|
+    subspec.source_files = 'Implementation/**/*.swift'
+  end
+
 end
