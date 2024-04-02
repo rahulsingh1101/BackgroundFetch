@@ -16,7 +16,8 @@ target 'BackgroundFetch' do
     # Pods for testing
   end
 pod 'Alamofire'
-pod 'RecordingModule', :path => './Modules/RecordingModule'
+pod 'RecordingModule/Protocols', :path => './Modules/RecordingModule'
+pod 'RecordingModule/Implementations', :path => './Modules/RecordingModule'
 pod 'UploadModule', :path => './Modules/UploadModule'
 pod 'UtilityModule', :path => './Modules/UtilityModule'
 
