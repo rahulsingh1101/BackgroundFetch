@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) uses Cameras</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>${PRODUCT_NAME} always microfone use</string>
 </dict>
 </plist>

@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.9.1)
+  - RecordingModule (1.0.0):
+    - UtilityModule
+  - UploadModule (1.0.0)
+  - UtilityModule (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - RecordingModule (from `./Modules/RecordingModule`)
+  - UploadModule (from `./Modules/UploadModule`)
+  - UtilityModule (from `./Modules/UtilityModule`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  RecordingModule:
+    :path: "./Modules/RecordingModule"
+  UploadModule:
+    :path: "./Modules/UploadModule"
+  UtilityModule:
+    :path: "./Modules/UtilityModule"
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  RecordingModule: c2ff5ee5e2738525e66e3fc26d996566e2b5f763
+  UploadModule: 4065223f2a815c42225f78cc2fc266ec0369b423
+  UtilityModule: 7fcd860cf18be04f9b363517bf2bb3c5517d54e0
+
+PODFILE CHECKSUM: 125bc077ccae206c0c104c9e4b830e376d1fff70
+
+COCOAPODS: 1.15.2
