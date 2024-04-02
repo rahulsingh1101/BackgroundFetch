@@ -19,6 +19,7 @@
 		1F7C19C02BB9B8FB00F20F1C /* BackgroundFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C19BF2BB9B8FB00F20F1C /* BackgroundFetchTests.swift */; };
 		1F7C19CA2BB9B8FB00F20F1C /* BackgroundFetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C19C92BB9B8FB00F20F1C /* BackgroundFetchUITests.swift */; };
 		1F7C19CC2BB9B8FB00F20F1C /* BackgroundFetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C19CB2BB9B8FB00F20F1C /* BackgroundFetchUITestsLaunchTests.swift */; };
+		1FC9C99B2BBC16210039E3E9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9C99A2BBC16210039E3E9 /* .gitignore */; };
 		79D685DECC3E31F23A57D7CF /* Pods_BackgroundFetchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88AE344B92CD064837828C4 /* Pods_BackgroundFetchTests.framework */; };
 		F3AEA0187A21EF483B921681 /* Pods_BackgroundFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D48D06725850E7B494335D7 /* Pods_BackgroundFetch.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		1F7C19C52BB9B8FB00F20F1C /* BackgroundFetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundFetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7C19C92BB9B8FB00F20F1C /* BackgroundFetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFetchUITests.swift; sourceTree = "<group>"; };
 		1F7C19CB2BB9B8FB00F20F1C /* BackgroundFetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FC9C99A2BBC16210039E3E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2F6F800D8130C5E259A29686 /* Pods-BackgroundFetch-BackgroundFetchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundFetch-BackgroundFetchUITests.release.xcconfig"; path = "Target Support Files/Pods-BackgroundFetch-BackgroundFetchUITests/Pods-BackgroundFetch-BackgroundFetchUITests.release.xcconfig"; sourceTree = "<group>"; };
 		462351B94B1E599659B698F2 /* Pods-BackgroundFetch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundFetch.debug.xcconfig"; path = "Target Support Files/Pods-BackgroundFetch/Pods-BackgroundFetch.debug.xcconfig"; sourceTree = "<group>"; };
 		6D48D06725850E7B494335D7 /* Pods_BackgroundFetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundFetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 		1F7C19992BB9B8F900F20F1C = {
 			isa = PBXGroup;
 			children = (
+				1FC9C99A2BBC16210039E3E9 /* .gitignore */,
 				1F7C19A42BB9B8F900F20F1C /* BackgroundFetch */,
 				1F7C19BE2BB9B8FB00F20F1C /* BackgroundFetchTests */,
 				1F7C19C82BB9B8FB00F20F1C /* BackgroundFetchUITests */,
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC9C99B2BBC16210039E3E9 /* .gitignore in Resources */,
 				1F7C19B22BB9B8FB00F20F1C /* Assets.xcassets in Resources */,
 				1F7C19B52BB9B8FB00F20F1C /* Base in Resources */,
 				1F7C19AD2BB9B8F900F20F1C /* Base in Resources */,
